@@ -60,6 +60,10 @@ a {
   width: 830px;
 }
 
+.input:-moz-placeholder{
+  color: #30384C;
+}
+
 .button__search {
   width: 19px;
   height: 19px;
