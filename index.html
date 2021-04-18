@@ -18,7 +18,7 @@
       <span class="menu__line"></span>
     </button>
     <img src="image/logo.svg" alt="Логотип ютуба" class="logo">
-    <form  action="http://youtube.com" method="post" class="input-group">
+    <form  action="http://youtube.com" enctype="text/plain" class="input-group">
       <input type="search" name="search" class="input__search" placeholder="Search">
       <button type="submit" class="button__search" >
         <a href="#" class="icons__link">
@@ -31,17 +31,17 @@
 
     <div class="icons">
       <a href="#" class="icons-link" >
-        <svg class="icons__video" width="27px" height="20px">
+        <svg class=" icon icons__video" width="27px" height="20px">
           <use xlink:href="image/icons.svg#phone-18"></use>
         </svg>
       </a>
       <a href="#"class="icons-link" >
-        <svg class="icons__shape"  width="21px" height="21px">
+        <svg class=" icon icons__shape"  width="21px" height="21px">
           <use xlink:href="image/icons.svg#Combined Shape"></use>
         </svg>
       </a>
       <a href="#" class="icons-link"  >
-        <svg class="icons__bell" width="22px" height="26px">
+        <svg class=" icon icons__bell" width="22px" height="26px">
           <use xlink:href="image/icons.svg#ui-11"></use>
         </svg>
       </a>
@@ -53,6 +53,157 @@
     </div>
     <!-- /.user -->
   </header>
+  <div class="container">
+    <aside class="sidebar">
+      <nav class="nav">
+        <ul class="nav-menu">
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <svg class=" icon icons__home" width="20px" height="19px">
+                <use xlink:href="image/icons.svg#home"></use>
+              </svg>
+              <span class="nav__text">Home</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <svg class="icon icons__trending" width="16px" height="21px">
+                <use xlink:href="image/icons.svg#trending"></use>
+              </svg>
+              <span class="nav__text">Trending</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <svg class="icon icons__subscription" width="18px" height="18px">
+                <use xlink:href="image/icons.svg#subscription"></use>
+              </svg>
+              <span class="nav__text">Subscription</span>
+            </a>
+          </li>
+        </ul>
+
+                <ul class="nav-menu">
+                  <li class="nav__item">
+                    <a href="#" class="nav__link">
+                      <svg class=" icon icons__library" width="20px" height="19px">
+                        <use xlink:href="image/icons.svg#library"></use>
+                      </svg>
+                      <span class="nav__text">Library</span>
+                    </a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#" class="nav__link">
+                      <svg class="icon icons__history" width="16px" height="21px">
+                        <use xlink:href="image/icons.svg#history"></use>
+                      </svg>
+                      <span class="nav__text">History</span>
+                    </a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#" class="nav__link">
+                      <svg class="icon icons__watch" width="18px" height="18px">
+                        <use xlink:href="image/icons.svg#watch"></use>
+                      </svg>
+                      <span class="nav__text">Watch later</span>
+                    </a>
+                  </li>
+                    <li class="nav__item">
+                      <a href="#" class="nav__link">
+                        <svg class="icon icons__fovourites" width="18px" height="18px">
+                          <use xlink:href="image/icons.svg#favourites"></use>
+                        </svg>
+                        <span class="nav__text">Favourites</span>
+                      </a>
+                    </li>
+                      <li class="nav__item">
+                        <a href="#" class="nav__link">
+                          <svg class="icon icons__like video" width="18px" height="18px">
+                            <use xlink:href="image/icons.svg#like video"></use>
+                          </svg>
+                          <span class="nav__text">Like videos</span>
+                        </a>
+                      </li>
+                        <li class="nav__item">
+                          <a href="#" class="nav__link">
+                            <svg class="icon icons__music" width="18px" height="18px">
+                              <use xlink:href="image/icons.svg#music"></use>
+                            </svg>
+                            <span class="nav__text">Music</span>
+                          </a>
+                        </li>
+                          <li class="nav__item">
+                            <a href="#" class="nav__link">
+                              <svg class="icon icons__games" width="18px" height="18px">
+                                <use xlink:href="image/icons.svg#games"></use>
+                              </svg>
+                              <span class="nav__text">Games</span>
+                            </a>
+                          </li>
+                          <li class="nav__item">
+                            <a href="#" class="nav__link">
+                              <svg class="icon icons__show more" width="18px" height="18px">
+                                <use xlink:href="image/icons.svg#spisok"></use>
+                              </svg>
+                              <span class="nav__text">Show more</span>
+                            </a>
+                          </li>
+                      </ul> 
+
+                      <h2 class="nav-title">Subscription</h2>
+                      <ul class="nav-menu">
+                        <li class="nav__item">
+                          <a href="#" class="nav__link">
+                            <img src="image/gussie.png" alt="Gussie Singleton" class="nav__image">
+                            <span class="nav__text">Gussie Singleton</span>
+                          </a>
+                        </li>
+                        <li class="nav__item">
+                          <a href="#" class="nav__link">
+                            <img src="image/nora.png" alt="Nora Francis" class="nav__image">
+                            <span class="nav__text">Nora Francis</span>
+                          </a>
+                        </li>
+                        <li class="nav__item">
+                          <a href="#" class="nav__link">
+                            <img src="image/belle.png" alt="Belle Briggs" class="nav__image">
+                            <span class="nav__text">Belle Briggs</span>
+                          </a>
+                        </li>
+                        <li class="nav__item">
+                          <a href="#" class="nav__link">
+                            <img src="image/eunice.png" alt="Eunice Cortez" class="nav__image">
+                            <span class="nav__text">Eunice Cortez</span>
+                          </a>
+                        </li>
+                        <li class="nav__item">
+                          <a href="#" class="nav__link">
+                            <img src="image/emma.png" alt="Emma Hanson" class="nav__image">
+                            <span class="nav__text">Emma Hanson</span>
+                          </a>
+                        </li>
+                        <li class="nav__item">
+                          <a href="#" class="nav__link">
+                            <img src="image/leah.png" alt="Leah Berry" class="nav__image">
+                            <span class="nav__text">Leah Berry</span>
+                          </a>
+                        </li>
+                      </ul> 
+
+                      <ul class="nav-setting">
+                        <li class="nav__item ">
+                          <a href="#" class="nav__link">
+                            <svg class=" icon icons__setting" width="19px" height="20px">
+                              <use xlink:href="image/icons.svg#setting"></use>
+                            </svg>
+                            <span class="text__setting">Setting</span>
+                          </a>
+                       </li>
+                        </ul>                   
+      </nav>
+    </aside>
+  </div>
+  <!-- /.container -->
   
 </body>
 </html>
