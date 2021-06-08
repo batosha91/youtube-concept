@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -28,7 +29,6 @@
         </a>
       </button>
     </form>
-
     <div class="icons">
       <a href="#" class="icons-link" >
         <svg class=" icon icons__video" width="27px" height="20px">
@@ -82,7 +82,6 @@
             </a>
           </li>
         </ul>
-
                 <ul class="nav-menu">
                   <li class="nav__item">
                     <a href="#" class="nav__link">
@@ -202,8 +201,373 @@
                         </ul>                   
       </nav>
     </aside>
+    <main class="content">
+      <div class="channel">
+        <a href="#" class="channel__title">
+          <img src="image/emma.png" alt="emma" class="channel__avatar">
+          <span class="channel__text">Dollie Blair</span>
+        </a>
+       <div class="slider-buttons">
+          <div class="channel-button channel-button-prev">
+            <svg class="icon icons__left" width="28px" height="28px">
+              <use xlink:href="image/icons.svg#left"></use>
+            </svg>
+          </div>
+          <div class="channel-button channel-button-next">
+            <svg class="icon icons__right" width="28px" height="28px">
+              <use xlink:href="image/icons.svg#right"></use>
+            </svg>
+          </div>
+       </div>
+        <!-- Slider main container -->
+        <div class="swiper-container channel-slider">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper " >
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="swiper__video">
+                <div class="video__thumb">
+                  <img src="image/slide/slide1.png" alt="slide1" class="thumbnail">
+                  <span class="video__duration">4:15</span>
+                </div>
+                <!-- /.video__thumb -->
+                <h3 class="video__title">A Brief History Of Creation</h3>
+                <div class="video__info">
+                  <span class="video__counter">
+                    <span class="video__views">80k views</span>
+                    <span class="video__date">3 days ago</span>
+                  </span>
+                  <span class="video__channel">Dollie Blair</span>
+                </div>
+                <!-- /.video__info -->
+              </div>
+              <!-- /.swiper__video -->
+            </div>
+            <!-- /swiper-slide -->
+            <div class="swiper-slide">
+              <div class="swiper__video">
+                <div class="video__thumb">
+                  <img src="image/slide/slide2.png" alt="slide2" class="thumbnail">
+                  <span class="video__duration">8:00</span>
+                </div>
+                <!-- /.video__thumb -->
+                <h3 class="video__title">Selecting The Right Hotel</h3>
+                <div class="video__info">
+                  <span class="video__counter">
+                    <span class="video__views">123k views</span>
+                    <span class="video__date">1 months ago</span>
+                  </span>
+                  <span class="video__channel">Dollie Blair</span>
+                </div>
+                <!-- /.video__info -->
+              </div>
+              <!-- /.swiper__video -->
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper__video">
+                <div class="video__thumb">
+                  <img src="image/slide/slide3.png" alt="slide3" class="thumbnail">
+                  <span class="video__duration">5:32</span>
+                </div>
+                <!-- /.video__thumb -->
+                <h3 class="video__title">Asteroids</h3>
+                <div class="video__info">
+                  <span class="video__counter">
+                    <span class="video__views">43k views</span>
+                    <span class="video__date">12 days ago</span>
+                  </span>
+                  <span class="video__channel">Dollie Blair</span>
+                </div>
+                <!-- /.video__info -->
+              </div>
+              <!-- /.swiper__video -->
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper__video">
+                <div class="video__thumb">
+                  <img src="image/slide/slide4.png" alt="slide4" class="thumbnail">
+                  <span class="video__duration">6:40</span>
+                </div>
+                <!-- /.video__thumb -->
+                <h3 class="video__title">Telescopes 101</h3>
+                <div class="video__info">
+                  <span class="video__counter">
+                    <span class="video__views">11k views</span>
+                    <span class="video__date">6 months ago</span>
+                  </span>
+                  <span class="video__channel">Dollie Blair</span>
+                </div>
+                <!-- /.video__info -->
+              </div>
+              <!-- /.swiper__video -->
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper__video">
+                <div class="video__thumb">
+                  <img src="image/slide/slide5.png" alt="slide5" class="thumbnail">
+                  <span class="video__duration">1:45</span>
+                </div>
+                <!-- /.video__thumb -->
+                <h3 class="video__title">Medical Care Is Just</h3>
+                <div class="video__info">
+                  <span class="video__counter">
+                    <span class="video__views">18k views</span>
+                    <span class="video__date">2 days ago</span>
+                  </span>
+                  <span class="video__channel">Dollie Blair</span>
+                </div>
+                <!-- /.video__info -->
+              </div>
+              <!-- /.swiper__video -->
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper__video">
+                <div class="video__thumb">
+                  <img src="image/slide/slide6.png" alt="slide6" class="thumbnail">
+                  <span class="video__duration">2:12</span>
+                </div>
+                <!-- /.video__thumb -->
+                <h3 class="video__title">Moon Gazing</h3>
+                <div class="video__info">
+                  <span class="video__counter">
+                    <span class="video__views">67k views</span>
+                    <span class="video__date">4 months ago</span>
+                  </span>
+                  <span class="video__channel">Dollie Blair</span>
+                </div>
+                <!-- /.video__info -->
+              </div>
+              <!-- /.swiper__video -->
+            </div>
+          </div>
+        </div>
+        <!-- slider -->
+      </div>
+      <!-- channel -->
+      <div class="recommended">
+        <h1 class="text__recom">Recommended</h1>
+       <div class="slider-buttons">
+          <div class=" recommended-button recommended-button-prev">
+            <svg class="icon icons__left" width="28px" height="28px">
+              <use xlink:href="image/icons.svg#left"></use>
+            </svg>
+          </div>
+          <div class=" recommended-button recommended-button-next">
+            <svg class="icon icons__right" width="28px" height="28px">
+              <use xlink:href="image/icons.svg#right"></use>
+            </svg>
+          </div>
+       </div>
+       <!-- Slider main container -->
+<div class="swiper-container recommended-slider">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+      <div class="recommended-video">
+        <div class="video__card">
+          <img src="image/slide/recommended/slide1png.png" alt="slide1" class="scetch">
+          <span class="video__duration">3:40</span>
+        </div>
+        <!-- video__card -->
+        <h3 class="video__title">Dude You Re Getting A Telescope</h3>
+                <div class="video__info">
+                  <span class="video__counter">
+                    <span class="video__views">34k views</span>
+                    <span class="video__date">5 days ago</span>
+                  </span>
+                  <span class="video__channel">Gussie French</span>
+                </div>
+      </div>
+      <!-- recommended-video -->
+    </div>
+    <div class="swiper-slide">
+      <div class="recommended-video">
+        <div class="video__card">
+          <img src="image/slide/recommended/slide2.png" alt="slide1" class="scetch">
+          <span class="video__duration">2:12</span>
+        </div>
+        <!-- video__card -->
+        <h3 class="video__title">Moon Gazing</h3>
+                <div class="video__info">
+                  <span class="video__counter">
+                    <span class="video__views">54k views</span>
+                    <span class="video__date">11 days ago</span>
+                  </span>
+                  <span class="video__channel">Edward Osborne</span>
+                </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="recommended-video">
+        <div class="video__card">
+          <img src="image/slide/recommended/slide3.png" alt="slide1" class="scetch">
+          <span class="video__duration">2:12</span>
+        </div>
+        <!-- video__card -->
+        <h3 class="video__title">Moon Gazing</h3>
+                <div class="video__info">
+                  <span class="video__counter">
+                    <span class="video__views">125k views</span>
+                    <span class="video__date">4 days ago</span>
+                  </span>
+                  <span class="video__channel">Dollie Blair</span>
+                </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+      <!-- recommended -->
+      <div class="food-drink">
+        <a href="#" class="food__title">
+          <img src="image/slide/fooddrink/Oval.png" alt="изображение канала" class="channel-food">
+          <span class="channel__name">Food & Drink</span>
+          <span class="recommended__channel">Recommended channel for you</span>
+          <form  action="mailto:batosha91@gmail.com" enctype="text/html" id="sub">
+            <button form="sub" class="button" type="submit"><span class="text__button">Subscribe 2.3m</span></button>
+          </form>
+        </a>
+              <div class="slider-buttons">
+          <div class=" food-button food-button-prev">
+            <svg class="icon icons__left" width="28px" height="28px">
+              <use xlink:href="image/icons.svg#left"></use>
+            </svg>
+          </div>
+          <div class=" food-button food-button-next">
+            <svg class="icon icons__right" width="28px" height="28px">
+              <use xlink:href="image/icons.svg#right"></use>
+            </svg>
+          </div>
+       </div>
+                        <!-- Slider main container -->
+              <div class="swiper-container drink-slider">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div class="drink-video">
+                      <div class="video__thumb">
+                        <img src="image/slide/fooddrink/slide1.png" alt="slide1" class="thumbnail">
+                        <span class="video__duration">7:36</span>
+                      </div>
+                      <!-- /.video__thumb -->
+                      <h3 class="video__title">Astronomy Or Astrology</h3>
+                      <div class="video__info">
+                        <span class="video__counter">
+                          <span class="video__views">240k views</span>
+                          <span class="video__date">4 months ago</span>
+                        </span>
+                        <span class="video__channel">Food & Drink</span>
+                      </div>
+                      <!-- /.video__info -->
+                    </div>
+                    <!-- drink-video -->
+                  </div>
+                 
+                  <div class="swiper-slide">
+                    <div class="drink-video">
+                      <div class="video__thumb">
+                        <img src="image/slide/fooddrink/slide2.png" alt="slide2" class="thumbnail">
+                        <span class="video__duration">2:19</span>
+                      </div>
+                      <!-- /.video__thumb -->
+                      <h3 class="video__title">Advertising Outdoors</h3>
+                      <div class="video__info">
+                        <span class="video__counter">
+                          <span class="video__views">13k views</span>
+                          <span class="video__date">15 days ago</span>
+                        </span>
+                        <span class="video__channel">Food & Drink</span>
+                      </div>
+                      <!-- /.video__info -->
+                    </div>
+                    <!-- drink-video -->
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="drink-video">
+                      <div class="video__thumb">
+                        <img src="image/slide/fooddrink/slide3.png" alt="slide3" class="thumbnail">
+                        <span class="video__duration">9:05</span>
+                      </div>
+                      <!-- /.video__thumb -->
+                      <h3 class="video__title">Radio Astronomy</h3>
+                      <div class="video__info">
+                        <span class="video__counter">
+                          <span class="video__views">1k views</span>
+                          <span class="video__date">11 mounths ago</span>
+                        </span>
+                        <span class="video__channel">Food & Drink</span>
+                      </div>
+                      <!-- /.video__info -->
+                    </div>
+                    <!-- drink-video -->
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="drink-video">
+                      <div class="video__thumb">
+                        <img src="image/slide/fooddrink/slide4.png" alt="slide6" class="thumbnail">
+                        <span class="video__duration">3:40</span>
+                      </div>
+                      <!-- /.video__thumb -->
+                      <h3 class="video__title">A Good Autoresponder</h3>
+                      <div class="video__info">
+                        <span class="video__counter">
+                          <span class="video__views">45k views</span>
+                          <span class="video__date">2 mounths ago</span>
+                        </span>
+                        <span class="video__channel">Food & Drink</span>
+                      </div>
+                      <!-- /.video__info -->
+                    </div>
+                    <!-- drink-video -->
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="drink-video">
+                      <div class="video__thumb">
+                        <img src="image/slide/fooddrink/slide5.png" alt="slide6" class="thumbnail">
+                        <span class="video__duration">1:56</span>
+                      </div>
+                      <!-- /.video__thumb -->
+                      <h3 class="video__title">Baby Monitor Technology</h3>
+                      <div class="video__info">
+                        <span class="video__counter">
+                          <span class="video__views">86k views</span>
+                          <span class="video__date">7 days ago</span>
+                        </span>
+                        <span class="video__channel">Food & Drink</span>
+                      </div>
+                      <!-- /.video__info -->
+                    </div>
+                    <!-- drink-video -->
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="drink-video">
+                      <div class="video__thumb">
+                        <img src="image/slide/fooddrink/slide6.png" alt="slide6" class="thumbnail">
+                        <span class="video__duration">4:15</span>
+                      </div>
+                      <!-- /.video__thumb -->
+                      <h3 class="video__title">Asteroids</h3>
+                      <div class="video__info">
+                        <span class="video__counter">
+                          <span class="video__views">123k views</span>
+                          <span class="video__date">4 days ago</span>
+                        </span>
+                        <span class="video__channel">Food & Drink</span>
+                      </div>
+                      <!-- /.video__info -->
+                    </div>
+                    <!-- drink-video -->
+                  </div>
+                </div>
+            
+              </div>
+      </div>
+    </main>
   </div>
   <!-- /.container -->
-  
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
